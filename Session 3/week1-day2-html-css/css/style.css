@@ -1,0 +1,58 @@
+/* Modifies body tag */
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Modifies header tag */
+header {
+    background-color: #333333;
+}
+
+/* Modifies h1 tags */
+h1 {
+    color: #eeeeee;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Modifies h2 tags */
+h2 {
+    font-size: 24px;
+}
+
+/* Modifies a href tags */
+a {
+    color: #d21034;
+}
+
+/* Modifies container class */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Modifies main-bio id */
+#main-bio {
+    float: left;
+    width: 70%;
+}
+
+/* Modifies contact-info id */
+#contact-info {
+    float: left;
+    width: 30%;
+}
+
+/* Modifies bio-image id */
+#bio-image {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+}
