@@ -1,0 +1,237 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    color: #777777;
+    background-color: white;
+    background-image: url("../images/gravel.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h1 {
+    padding: 25px 25px 25px 25px;
+    font-size: 40px;
+    
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 35px;
+}
+
+header {
+    z-index: 10;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #cccccc;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+li {
+    display: inline;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px .5px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+.wrapper1 {
+    position: center;
+    margin: auto;
+    width: 960px;
+    height: 100px;
+    background-color: white;
+
+    
+}
+
+nav {
+    float: right;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#btn_about:link, #btn_portfolio:link, #btn_contact:link {
+    color: #777777;
+}
+
+#btn_about:visited, #btn_portfolio:visited, #btn_contact:visited {
+    color: #777777;
+}
+
+#btn_about:hover, #btn_portfolio:hover, #btn_contact:hover {
+    color: #4aaaa5;
+}
+
+#btn_about:active, #btn_portfolio:active, #btn_contact:active {
+    color: #4aaaa5;
+}
+
+#logo {
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    height: 50px;
+}
+
+.wrapper2 {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    width: 920px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #dddddd;
+}
+
+.about {
+    margin: 15px;
+}
+
+.content_h {
+    position: relative;
+    height: 60px;
+    margin: 20px 0px 20px 0px;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #dddddd;
+    
+}
+
+#portrait {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0px 15px 15px 0px;
+}
+
+#about_txt {
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+    border-color: #4aaaa5;
+    color: white;
+    margin-top: -100px;
+}
+
+#copyright {
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+}
+
+#copyright:link {
+    color: white;
+}
+
+#copyright:hover {
+    color: #4aaaa5;
+}
+
+#copyright:visited {
+    color: #97e2e1;
+}
+
+#form1 {
+    line-height: 2;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    padding: 8px 8px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+}
+
+.portimg {
+    float: left;
+    position: relative;
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.imgdescription {
+    width: auto;
+    height: auto;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+
+.portfolio {
+    height: 660px;
+    
+}
