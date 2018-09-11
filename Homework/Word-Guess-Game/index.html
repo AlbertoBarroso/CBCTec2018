@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Homework WGG</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/JavaScript" src="assets/javascript/modal.js"></script>
+</head>
+<body>
+
+    <!-- Modal Section -->
+    <!-- Welcome Modal -->
+    <div id="insModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <p style="font-family: ragnarokregular; font-weight: 900">Welcome!</p>
+        </br>
+        <p>This is a simple game of hangman with a little viking twist</p>
+        <p>Hope you enjoy it</p>
+        </br>
+        <p>Press ENTER to begin</p>
+        </div>
+        
+    </div>
+
+    <!-- Main Container -->
+    <section id="mainContainer">
+        
+        <!-- Header Section -->
+        <header>
+
+            <!-- Pattern -->
+            <section class="wrapper" id="headerWrapper">
+                <!-- Pattern Goes Here -->
+                <img id="headerPattern" src="assets/images/svg/ornament.svg">
+            </section>
+
+        </header>
+
+        <!-- Break -->
+        <section id="break">  </section>
+
+        <!-- Main Content Section -->
+        <section class="wrapper" id="mainWrapper">
+
+            <!-- Game Logo || Title Section-->
+            <section id="logoSection">
+
+                <!-- Symbol -->
+                <div class="symbols" id="treeSymbol">
+                    <img id="treeImg" src="assets/images/svg/treeoflife.svg">    
+                </div>
+
+                <!-- Logos -->
+                <div class="logos" id="logoWrapper">
+                    <h1 id="logo">Hangman</h1>
+                    <img id="runesSVG" src="assets/images/svg/runes.svg">
+                    <h2 id="subLogo">Blood Eagle Edition</h2>
+                </div>
+
+                <!-- Symbol -->
+                <div class="symbols" id="knotSymbol">  
+                    <img id="knotImg" src="assets/images/svg/knot.svg">        
+                </div>
+
+            </section>
+
+            <!-- Break B-->
+            <section id="breakB">  </section>
+
+            <!-- Game Panels -->
+
+            <!-- First Row -->
+            <section class="row" id="firstRow">
+
+                <!-- Score -->
+                <section class="gamePanel" id="panelA">
+
+                    <!-- Section Frame -->
+                    <div class="frame" id="circleFrame">
+                    <img id="circleFrameImg" src="assets/images/svg/circle_ornament.svg">
+                    </div>
+
+                    <!-- Lives Panel -->
+                    <div class="panel" id="livesPanel">
+
+                        <p id="livesLeft"></p>
+
+                    </div>
+
+                </section>
+
+                <!-- Image Panel -->
+                <section class="gamePanel" id="panelB">
+
+                    <!-- Section Frame -->
+                    <div class="frame" id="rectFrame">
+                        <img id="rectFrameImg" src="assets/images/svg/frame0.svg">
+                    </div>
+
+                </section>
+
+                <!-- Used Letter Panel-->
+                <section class="gamePanel" id="panelC">
+
+                    <!-- Section Frame -->
+                    <div class="frame" id="circleFrame2">
+                        <img id="circleFrameImg2" src="assets/images/svg/circle_ornament.svg">
+                    </div>
+
+                    <div class="panel" id="lettersPanel">
+
+                        <p class="usedLetters" id="lineOne"></p>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+            <!-- Break Row -->
+            <section id="break2">
+
+                <h1 id = "break2title">Type any key to play</h1>
+                <p id = "gameResult"></p>
+                <p id = "gameResultB"></p>
+
+            </section>
+
+            <!-- Second Row -->
+            <section class="row" id="secondRow">
+
+                <!-- Win Counter -->
+                <div class="wrapper" id="winWrapper">
+                    
+                    <div class="panel" id="winCounter">
+
+                        <p id="winText">Wins</p>
+                        <p id="winNumber"></p>
+
+                    </div>
+                            
+                </div>
+
+                <!-- Word Panel -->
+                <div class="panel" id="wordPanel">
+
+                    <div class="panel" id="wordHint">
+
+                        <p id="blankWord"></p>
+
+                    </div>
+
+                </div>
+
+                <!-- Lose Counter -->
+                <div class="wrapper" id="loseWrapper">
+
+                    <div class="panel" id="loseCounter">
+
+                        <p id="loseText">Losses</p>
+                        <p id="loseNumber"></p>
+
+                    </div>
+                        
+                </div>
+
+            </section>
+
+        </section>
+
+        <!-- Break -->
+        <section id="break3">  </section>
+
+        <footer style="width:960px; height:50">
+
+            <section class="wrapper" id="footerWrapper">
+
+                <!-- Pattern Goes Here -->
+                <img src="assets/images/svg/ornament.svg">
+    
+            </section>
+        
+        </footer>
+
+    </section>
+
+    <script type="text/JavaScript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
